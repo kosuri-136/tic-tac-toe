@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  h1 {
+    color: #ff00cc;
+  }
+  
+  #game-container {
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 10px;
+    background-color: #ff0000;
+    padding: 10px;
+  }
+  
+  .cell {
+    background-color: #730045;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    color: #ffff00;
+    cursor: pointer;
+  }
+  
+  #current-player {
+    margin-top: 20px;
+    color: #0026ff;
+    font-weight: bold;
+  }
+  
+  #winner {
+    margin-top: 10px;
+    color: green;
+    font-weight: bold;
+  }
+  
+  #draw {
+    margin-top: 10px;
+    color: orange;
+    font-weight: bold;
+  }
+  
+  #restart-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
